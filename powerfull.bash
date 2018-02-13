@@ -1,13 +1,23 @@
+
+## <COPY START>
+
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
-
-
 
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
 
 
+# some git aliases
+# uncomment for usage
+#alias git='LC_ALL=en_US.UTF-8 git'
+#alias g="LC_ALL=en_US.UTF-8 git pull --all"
+#alias gp="LC_ALL=en_US.UTF-8 git push"
+#alias gc="LC_ALL=en_US.UTF-8 git commit -am "
+#alias gs="LC_ALL=en_US.UTF-8 git status"
+#alias gd="LC_ALL=en_US.UTF-8 git diff "
+#alias gco="LC_ALL=en_US.UTF-8 git checkout "
 
 
 gpr() {
@@ -73,7 +83,6 @@ COLOR_GRAY_BLACK="\033[38;05;252;48;05;232m"
 SHOW_UNTRACKED_AS_DIRTY=0
 
 
-
 # powerline shell inputs  13:51:41  DraK
 # need to install font Monaco Powerline MacOS https://gist.github.com/baopham/1838072
 #  master ↓31 {95} U:1  /www/project1/public 
@@ -91,3 +100,4 @@ LPS=git_ps1
 export PS1="\$(git_ps1) \[$COLOR_GRAY\]\W \[$COLOR_GRAY_BLACK\]\[$COLOR_RESET\] "
 
 
+### <COPY END>
