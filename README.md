@@ -15,4 +15,8 @@
     * **1**: Will mark powershell as red(dirty) when branch have untracked file
     * **0**: Will mark powershell as clean(blue) when branch have untracked files
 
- 
+
+
+## Screenshots
+
+![Image 1](https://github.com/horrower/osx-terminal-powershell/images/1.png)
