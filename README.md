@@ -7,3 +7,11 @@
 3) Copy .git-completion.bash in your <homedir>
 4) Copy and paste lines from powerfull.bash to your <homedir>/.profile
 5) [ Optional ] You can uncomment some usage git aliases in file
+
+
+## Options
+
+* **SHOW_UNTRACKED_AS_DIRTY**
+    * **1**: Will mark powershell as red(dirty) when branch have untracked file
+    * **0**: Will mark powershell as clean(blue) when branch have untracked files
+
