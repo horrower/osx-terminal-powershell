@@ -19,4 +19,8 @@
 
 ## Screenshots
 
-![Image 1](https://github.com/horrower/osx-terminal-powershell/images/1.png)
+![Image 1](https://raw.githubusercontent.com/horrower/osx-terminal-powershell/master/images/1.png)
+
+![Image 2](https://raw.githubusercontent.com/horrower/osx-terminal-powershell/master/images/2.png)
+
+![Image 3](https://raw.githubusercontent.com/horrower/osx-terminal-powershell/master/images/3.png)
