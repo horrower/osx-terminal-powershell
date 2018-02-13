@@ -15,3 +15,4 @@
     * **1**: Will mark powershell as red(dirty) when branch have untracked file
     * **0**: Will mark powershell as clean(blue) when branch have untracked files
 
+ 
