@@ -97,7 +97,6 @@ git_ps1() {
     fi
 }
 LPS=git_ps1
-export PS1="\$(git_ps1) \[$COLOR_GRAY\]\W \[$COLOR_GRAY_BLACK\]\[$COLOR_RESET\] "
-
+export PS1="\[\$(git_ps1)\] \[$COLOR_GRAY\]\W \[$COLOR_GRAY_BLACK\]\[$COLOR_RESET\] "
 
 ### <COPY END>
