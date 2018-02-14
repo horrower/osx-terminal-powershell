@@ -7,10 +7,10 @@
 3) Copy .git-completion.bash in your ~
 
      `# cp .git-completion.bash ~/.git-completion.bash`
-4) Copy and paste lines from powerfull.bash to your ~/.profile
+4) Copy and paste lines from powerfull.bash to your ~/.bash_profile
 
-    `# cat ./powerfull.bash  >> ~/.profile`
-5) [ Optional ] You can uncomment some usage git aliases in your ~/.profile file
+    `# cat ./powerfull.bash  >> ~/.bash_profile`
+5) [ Optional ] You can uncomment some usage git aliases in your ~/.bash_profile file
 
 
 ## Options
