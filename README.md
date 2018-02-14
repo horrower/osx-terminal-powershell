@@ -2,8 +2,8 @@
 
 
 ## Installation:
-1) Install font
-2) Setup terminal for use this font
+1) Install font (double click Monaco%20for%20Powerline.otf)
+2) Setup terminal for use this font (iTerm or Terminal settings - set as default)
 3) Copy .git-completion.bash in your ~
 
      `# cp .git-completion.bash ~/.git-completion.bash`
