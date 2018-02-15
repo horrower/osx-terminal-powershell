@@ -2,8 +2,8 @@
 
 
 ## Installation:
-1) Install font (double click Monaco%20for%20Powerline.otf)
-2) Setup terminal for use this font (iTerm or Terminal settings - set as default. [Helpfull info for iTerm ](https://github.com/horrower/osx-terminal-powershell/issues/2) )
+1) Install font (double click `Monaco%20for%20Powerline.otf`)
+2) Setup terminal for use this font (iTerm or Terminal settings - set as default. [Helpfull info for iTerm2](https://github.com/horrower/osx-terminal-powershell/issues/2) )
 3) Copy .git-completion.bash in your ~
 
      `# cp .git-completion.bash ~/.git-completion.bash`
@@ -11,8 +11,13 @@
 
     `# cat ./powerfull.bash  >> ~/.bash_profile`
 5) [ Optional ] You can uncomment some usage git aliases in your ~/.bash_profile file
-
-
+6) [ Optional ] If you faced issues with Midnight Commander not working highlight :
+  
+   - If file `.bashrc` exists in your home folder you should copy powerfull.bash content in it: 
+     `# cat ./powerfull.bash  >> ~/.bashrc` 
+   - If not, create symlink: 
+     `# ln -s .bash_profile .bashrc`
+   - Restart Midnight Commander
 ## Options
 
 * **SHOW_UNTRACKED_AS_DIRTY**
